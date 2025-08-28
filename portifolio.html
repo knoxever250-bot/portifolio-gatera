@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GATERA DONACIEU | Construction Engineer</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #f5f5f5;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 5px #000;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      padding: 10px 25px;
+      background-color: navy;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: forestgreen;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2.section-title {
+      font-size: 2em;
+      margin-bottom: 30px;
+      color: navy;
+      text-align: center;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .project-card:hover {
+      transform: scale(1.02);
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .project-card .content {
+      padding: 15px;
+    }
+
+    .project-card .content h3 {
+      margin-bottom: 5px;
+    }
+
+    .about {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .about img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 4px solid navy;
+    }
+
+    .testimonials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .testimonial {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .testimonial img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+
+    .social-links a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      .about {
+        padding: 0 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Meet GATERA DONATIEUN – Expert in Construction Engineering</h1>
+    <p>Building strong foundations, one project at a time.</p>
+    <a href="#projects" class="btn">View My Projects</a>
+  </header>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <img src="amahoro.jpg" alt="Project 1" />
+        <div class="content">
+          <h3>AMAHORO STADIUM</h3>
+          <p>Completed: 2022-2024 | Kigali</p>
+          <small>Directed by GATERA DONATIEUN</small>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="clicket stadius.jpg" alt="Project 2" />
+        <div class="content">
+          <h3>clicket stadius</h3>
+          <p>Completed: 2016-2018 | Gahanga</p>
+          <small>Directed by GATERA DONATIEUN</small>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="fourpoint Sheraton hotel.jpg" alt="Project 3" />
+        <div class="content">
+          <h3>foupoint Sheraton hotel</h3>
+          <p>Completed: 2018-2019 | Nyarugenge</p>
+          <small>Directed by GATERA DONATIEUN</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="projects">
+        <div class="projects">
+      <div class="project-card">
+        <img src="I&m bank.jpg" alt="Project 4" />
+        <div class="content">
+          <h3>I&m bank</h3>
+          <p>Completed: 2019-2021 | Kigali</p>
+          <small>Directed by GATERA DONATIEUN</small>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="NSs kimihurura.jpg" alt="Project 2" />
+        <div class="content">
+          <h3>NSs kimihurura</h3>
+          <p>Completed: 2021-2022 | Kimihurura</p>
+          <small>Directed by GATERA DONATIEUN</small>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="Bank of Kigali.jpg" alt="Project 3" />
+        <div class="content">
+          <h3>Bank of Kigali</h3>
+          <p>Completed: 2025 | Kigali</p>
+          <small>Directed by GATERA DONATIEUN</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- About Section -->
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about">
+      <img src="profile-pic.jpg.jpg" alt="Gatera Donacieu" />
+      <p>
+        GATERA DONATIEUN is a dedicated Construction Engineer with over <strong>10</strong> years of experience in building residential and commercial projects. Known for his leadership on-site and commitment to quality, Donacieu has directed several successful building projects across <strong>Rwanda</strong>.
+      </p>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <h2 class="section-title">What People Say About Donatieun</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <img src="crient1.jpg" alt="Client 1" />
+        <p>"Working with Donatieun was a pleasure. His professionalism and quality of work are unmatched."</p>
+        <strong>- Jean Bosco</strong>
+      </div>
+
+      <div class="testimonial">
+        <img src="client3.jpg" alt="Client 2" />
+        <p>"He turned our dream home into reality. Highly recommended for any construction work."</p>
+        <strong>- Aline Mutesi</strong>
+      </div>
+
+      <div class="testimonial">
+        <img src="client2.jpg" alt="Client 3" />
+        <p>"Dependable and detail-oriented, Donacieu ensured everything was done to the highest standard."</p>
+        <strong>- Patrick Niyonsaba</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Contact: <a href="mailto:gateradonatien250@gmail"> gateradonatien250@gmail.com</a> | Phone: +250 787121412</p>
+    <div class="social-links">
+      <a href="https://rw.linkedin.com/in/gatera-donatien-3225672a7">LinkedIn</a>
+      <a href="https://www.facebook.com/gatera.donatien">Facebook</a>
+    </div>
+    <p>&copy; 2025 GATERA DONATIEUN. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
